@@ -2,7 +2,7 @@
 An LSTM-based solution to predict the number of IT-tickets for the next day.
 
 ## Problem Formulation
-The number of IT-Tickets prediction problem is formulated as supervised sequence learning task. The next day value is predicted using the N-consecutive previous days data.
+The problem "predicting the incoming number of IT-Tickets" is formulated as supervised sequence learning task. The next day value is predicted using the N-consecutive previous days data.
 
 ## Analysis Data Preparation
 The data from "Störungen" and "Anforderungen" sheets is joined and aggregated to obtain the number of IT-Ticktes value per day. Also, the date and holiday features (including lags and leads) are engineered and incorporated in the label encoding scheme.
